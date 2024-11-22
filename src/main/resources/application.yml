@@ -1,0 +1,21 @@
+server:
+  port: 9090
+spring:
+  security:
+    user:
+      name: admin
+      password: admin
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5432/sinemabiletdb
+    username: postgres
+    password: root
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
+java15:
+  jwt:
+    secret-key: 0f065e729f4f130a641c3a03751b50a7
+    issuer: sinemBiletX
