@@ -21,12 +21,11 @@ public class UserController {
     private final UserService userService;
 
     @PostMapping(REGISTER)
-    public ResponseEntity<BaseResponse<User>> register(@RequestBody @Valid RegisterRequestDto dto) {
-        System.out.println(dto);
+    public ResponseEntity<BaseResponse<Boolean>> register(@RequestBody @Valid RegisterRequestDto dto) {
         if(!dto.password().equals(dto.rePassword())) throw new SinemaBiletException(ErrorType.PASSWORDS_DO_NOT_MATCH);
-        return ResponseEntity.ok(BaseResponse.<User>builder()
+        return ResponseEntity.ok(BaseResponse.<Boolean>builder()
                         .code(200)
-                        .message("Üye kaydı başarı ile oluşturuldu.")
+                        .message("Onay linki email adresinize gönderildi!")
                         .success(true)
                         .data(userService.register(dto))
                 .build());

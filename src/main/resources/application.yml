@@ -1,6 +1,20 @@
 server:
   port: 9090
 spring:
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: ibma.j.walker99@gmail.com
+    password: oqdc uasc uoyq ebgl
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+          connectiontimeout: 5000
+          timeout: 5000
+          writetimeout: 5000
   security:
     user:
       name: admin

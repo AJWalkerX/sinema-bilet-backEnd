@@ -1,5 +1,6 @@
 package com.ajwalker.entity;
 
+import com.ajwalker.utility.enums.UserStates;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -19,5 +20,6 @@ public class User {
     private String name;
     private String password;
     private String email;
+    private UserStates State;
 
 }
