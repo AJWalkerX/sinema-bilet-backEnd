@@ -36,14 +36,26 @@ public class UserService {
                     .State(UserStates.PENDING)
                     .build());
         String token = jwtManager.createToken(user.getId());
-        String verificationLink = "http://localhost:9090/v1/dev/user/auth-mail?id=" + token;
+        String verificationLink = "http://localhost:9090/v1/dev/user/auth-mail?auth=" + token;
         mailService.sendMail(user.getEmail(), "Email authantication", verificationLink);
         return true;
     }
 
     public String login(LoginRequestDto dto) {
-        Optional<User> userOptional = userRepository.findByEmailAndPassword(dto.email(),dto.password());
-        if(userOptional.isEmpty()) throw new SinemaBiletException(ErrorType.WRONG_MAIL_OR_PASSWORD);
+        Optional<User> userOptional = userRepository.findByEmail(dto.email());
+        if (userOptional.isEmpty() ||
+                !passwordEncoder.matches(dto.password(), userOptional.get().getPassword())) {
+            throw new SinemaBiletException(ErrorType.WRONG_MAIL_OR_PASSWORD);
+        }
         return jwtManager.createToken(userOptional.get().getId());
+    }
+
+    public void updateUserState(Long userId) {
+        User user = userRepository.findById(userId).orElse(null);
+        if (user == null){
+            throw new SinemaBiletException(ErrorType.USER_NOTFOUND);
+        }
+        user.setState(UserStates.ACTIVE);
+        userRepository.save(user);
     }
 }
