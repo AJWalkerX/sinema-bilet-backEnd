@@ -1,12 +1,8 @@
 package com.ajwalker.utility.generateData;
 
 
-import com.ajwalker.entity.Movie;
-import com.ajwalker.entity.MovieGenres;
-import com.ajwalker.entity.Seat;
-import com.ajwalker.repository.MovieGenreRepository;
-import com.ajwalker.repository.MovieRepository;
-import com.ajwalker.repository.SeatRepository;
+import com.ajwalker.entity.*;
+import com.ajwalker.repository.*;
 import com.ajwalker.service.SeatService;
 import jakarta.annotation.PostConstruct;
 import lombok.RequiredArgsConstructor;
@@ -22,6 +18,9 @@ public class DataGenerator {
     private final SeatRepository seatRepository;
     private final MovieRepository movieRepository;
     private final MovieGenreRepository movieGenreRepository;
+    private final CinemaRepository cinemaRepository;
+    private final SessionRepository sessionRepository;
+    private final MovieSessionRepository movieSessionRepository;
 
     @PostConstruct
     public void dataGenerator(){
@@ -37,7 +36,28 @@ public class DataGenerator {
                     seatRepository.save(seat);
                 }
             }
+
         }
+
+        //sinema özdilek vs.
+        if(cinemaRepository.findAll().isEmpty()){
+            List<Cinema> cinemaList = CinemaGenerator.generateCinema();
+            cinemaRepository.saveAll(cinemaList);
+        }
+
+        if(sessionRepository.findAll().isEmpty()){
+            List<Session> sessionList = SessionGenerator.generateSessions();
+            sessionRepository.saveAll(sessionList);
+        }
+
+        if(movieSessionRepository.findAll().isEmpty()){
+            List<MovieSession> movieSessionList = MovieSessionGenerator.generateMovieSessions();
+            movieSessionRepository.saveAll(movieSessionList);
+        }
+
+
+
+
         //movie
         if (movieRepository.count() == 0) {
             Movie gladyator2 = Movie.builder()
