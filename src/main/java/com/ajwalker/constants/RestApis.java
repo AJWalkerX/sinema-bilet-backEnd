@@ -16,6 +16,7 @@ public class RestApis {
     public static final String AUTHMAIL = "/auth-mail";
 
     public static final String FINDALLMOVIE = "/movie-list";
-    public static final String FINDBYIDMOVIE= "/movie-details";
+    public static final String FINDBYIDMOVIE= "/movie-page";
+
 
 }

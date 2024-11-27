@@ -6,10 +6,7 @@ import com.ajwalker.entity.Seat;
 import com.ajwalker.service.MovieService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
-import org.springframework.web.bind.annotation.CrossOrigin;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
@@ -32,6 +29,16 @@ public class MovieController {
                 .success(true)
                 .message("FİLMLER")
                 .data(movieService.getAllMovies())
+                .build());
+    }
+
+    @GetMapping(FINDBYIDMOVIE)
+    public ResponseEntity<BaseResponse<Movie>> getMovieById(@RequestParam Long id) {
+        return ResponseEntity.ok(BaseResponse.<Movie>builder()
+                .code(200)
+                .success(true)
+                .message("FİLMLER")
+                .data(movieService.getMovieById(id))
                 .build());
     }
 
