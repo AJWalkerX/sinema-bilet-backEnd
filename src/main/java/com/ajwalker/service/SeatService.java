@@ -12,8 +12,6 @@ import java.util.List;
 public class SeatService {
     private final SeatRepository seatRepository;
 
-    public List<Seat> getAllSeats(){
-        return seatRepository.findAllByOrderByLetterAscNoAsc();
-    }
+
 
 }

@@ -18,20 +18,11 @@ import static com.ajwalker.constants.RestApis.*;
 @RequiredArgsConstructor
 @RequestMapping(SEAT)
 @CrossOrigin("*")
-
 public class SeatController {
 
     private final SeatService seatService;
 
-    @GetMapping("/get-all-seats")
-    public ResponseEntity<BaseResponse<List<Seat>>> getAllSeats(){
-        return ResponseEntity.ok(BaseResponse.<List<Seat>>builder()
-                        .code(200)
-                        .success(true)
-                        .message("KOLTUKLAR")
-                        .data(seatService.getAllSeats())
-                .build());
-    }
+
 
 
 
