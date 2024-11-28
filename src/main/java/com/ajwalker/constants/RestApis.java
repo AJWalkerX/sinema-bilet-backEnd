@@ -10,6 +10,8 @@ public class RestApis {
     public static final String SEAT = ROOT+"/seat";
     public static final String MOVIE = ROOT+"/movie";
     public static final String MOVIESESSION = ROOT+ "/movie-session";
+    public static final String CINEMA = ROOT+ "/cinema";
+    public static final String SESSION = ROOT+ "/session";
 
     public static final String LOGIN = "/login";
     public static final String REGISTER = "/register";
@@ -17,7 +19,7 @@ public class RestApis {
 
     public static final String FINDALLMOVIE = "/movie-list";
     public static final String FINDBYIDMOVIE= "/movie-page";
-    
-
+    public static final String GETALLCINEMA = "/get-all-cinema";
+    public static final String FINDSESSIONSBYCINEMAID = "/find-sessions-by-cinema-id";
 
 }

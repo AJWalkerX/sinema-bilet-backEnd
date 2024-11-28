@@ -26,6 +26,34 @@
 2024-11-28T14:46:18.318+03:00  INFO 13344 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
 2024-11-28T14:46:18.321+03:00  INFO 13344 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
 2024-11-28T14:46:18.332+03:00  INFO 13344 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-11-28T14:49:02.107+03:00  INFO 7768 --- [main] com.ajwalker.SinemaBiletApplication      : Starting SinemaBiletApplication using Java 21.0.3 with PID 7768 (C:\Users\MEHTOR\Desktop\kodlar\sinema-bilet-backend\build\classes\java\main started by MEHTOR in C:\Users\MEHTOR\Desktop\kodlar\sinema-bilet-backend)
+2024-11-28T14:49:02.111+03:00  INFO 7768 --- [main] com.ajwalker.SinemaBiletApplication      : No active profile set, falling back to 1 default profile: "default"
+2024-11-28T14:49:03.707+03:00  INFO 7768 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-11-28T14:49:03.827+03:00  INFO 7768 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 106 ms. Found 7 JPA repository interfaces.
+2024-11-28T14:49:04.669+03:00  INFO 7768 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 9090 (http)
+2024-11-28T14:49:04.694+03:00  INFO 7768 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-11-28T14:49:04.694+03:00  INFO 7768 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-11-28T14:49:04.782+03:00  INFO 7768 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-11-28T14:49:04.783+03:00  INFO 7768 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2601 ms
+2024-11-28T14:49:05.065+03:00  INFO 7768 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-11-28T14:49:05.197+03:00  INFO 7768 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-11-28T14:49:05.252+03:00  INFO 7768 --- [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-11-28T14:49:05.825+03:00  INFO 7768 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-11-28T14:49:05.872+03:00  INFO 7768 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-11-28T14:49:06.097+03:00  INFO 7768 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@7ba1cdbe
+2024-11-28T14:49:06.099+03:00  INFO 7768 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-11-28T14:49:07.652+03:00  INFO 7768 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-11-28T14:49:07.735+03:00  INFO 7768 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-11-28T14:49:08.970+03:00  WARN 7768 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-11-28T14:49:09.024+03:00  INFO 7768 --- [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2024-11-28T14:49:09.765+03:00  INFO 7768 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 9090 (http) with context path '/'
+2024-11-28T14:49:09.775+03:00  INFO 7768 --- [main] com.ajwalker.SinemaBiletApplication      : Started SinemaBiletApplication in 8.433 seconds (process running for 9.43)
+2024-11-28T14:57:54.919+03:00  INFO 7768 --- [http-nio-9090-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-11-28T14:57:54.919+03:00  INFO 7768 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-11-28T14:57:54.921+03:00  INFO 7768 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2024-11-28T15:51:57.381+03:00  INFO 7768 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-11-28T15:51:57.388+03:00  INFO 7768 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-11-28T15:51:57.398+03:00  INFO 7768 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
 2024-11-28T12:12:34.020Z  INFO 21572 --- [main] com.ajwalker.SinemaBiletApplication      : Starting SinemaBiletApplication using Java 21.0.3 with PID 21572 (C:\Users\AJWal\Masaüstü\Desktop\BilgeAdam\WorkFlows\projects\SinemaBilet\build\classes\java\main started by AJWal in C:\Users\AJWal\Masaüstü\Desktop\BilgeAdam\WorkFlows\projects\SinemaBilet)
 2024-11-28T12:12:34.022Z  INFO 21572 --- [main] com.ajwalker.SinemaBiletApplication      : No active profile set, falling back to 1 default profile: "default"
 2024-11-28T12:12:34.703Z  INFO 21572 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
@@ -555,4 +583,190 @@ Caused by: org.springframework.data.mapping.PropertyReferenceException: No prope
 2024-11-28T12:29:42.709Z  INFO 25088 --- [main] com.ajwalker.SinemaBiletApplication      : Started SinemaBiletApplication in 4.315 seconds (process running for 4.791)
 2024-11-28T12:31:09.551Z  INFO 25088 --- [http-nio-9090-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
 2024-11-28T12:31:09.552Z  INFO 25088 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2024-11-28T12:31:09.555Z  INFO 25088 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2024-11-28T12:31:09.555Z  INFO 25088 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms2024-11-28T16:06:00.629+03:00  INFO 13500 --- [main] com.ajwalker.SinemaBiletApplication      : Starting SinemaBiletApplication using Java 21.0.3 with PID 13500 (C:\Users\MEHTOR\Desktop\kodlar\sinema-bilet-backend\build\classes\java\main started by MEHTOR in C:\Users\MEHTOR\Desktop\kodlar\sinema-bilet-backend)
+2024-11-28T16:06:00.632+03:00  INFO 13500 --- [main] com.ajwalker.SinemaBiletApplication      : No active profile set, falling back to 1 default profile: "default"
+2024-11-28T16:06:01.955+03:00  INFO 13500 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-11-28T16:06:02.055+03:00  INFO 13500 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 90 ms. Found 7 JPA repository interfaces.
+2024-11-28T16:06:02.790+03:00  INFO 13500 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 9090 (http)
+2024-11-28T16:06:02.810+03:00  INFO 13500 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-11-28T16:06:02.811+03:00  INFO 13500 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-11-28T16:06:02.893+03:00  INFO 13500 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-11-28T16:06:02.894+03:00  INFO 13500 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2208 ms
+2024-11-28T16:06:03.108+03:00  INFO 13500 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-11-28T16:06:03.205+03:00  INFO 13500 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-11-28T16:06:03.258+03:00  INFO 13500 --- [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-11-28T16:06:03.816+03:00  INFO 13500 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-11-28T16:06:03.859+03:00  INFO 13500 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-11-28T16:06:04.093+03:00  INFO 13500 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@7742a276
+2024-11-28T16:06:04.096+03:00  INFO 13500 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-11-28T16:06:05.791+03:00  INFO 13500 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-11-28T16:06:05.902+03:00  INFO 13500 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-11-28T16:06:07.130+03:00  WARN 13500 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-11-28T16:06:07.191+03:00  INFO 13500 --- [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2024-11-28T16:06:07.980+03:00  INFO 13500 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 9090 (http) with context path '/'
+2024-11-28T16:06:07.989+03:00  INFO 13500 --- [main] com.ajwalker.SinemaBiletApplication      : Started SinemaBiletApplication in 7.955 seconds (process running for 9.271)
+2024-11-28T16:06:40.683+03:00  INFO 13500 --- [http-nio-9090-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-11-28T16:06:40.683+03:00  INFO 13500 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-11-28T16:06:40.685+03:00  INFO 13500 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2024-11-28T16:06:41.638+03:00  INFO 13500 --- [http-nio-9090-exec-9] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 426 ms
+2024-11-28T16:08:37.208+03:00  INFO 13500 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-11-28T16:08:37.210+03:00  INFO 13500 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-11-28T16:08:37.214+03:00  INFO 13500 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-11-28T16:20:17.337+03:00  INFO 20812 --- [main] com.ajwalker.SinemaBiletApplication      : Starting SinemaBiletApplication using Java 21.0.3 with PID 20812 (C:\Users\MEHTOR\Desktop\kodlar\sinema-bilet-backend\build\classes\java\main started by MEHTOR in C:\Users\MEHTOR\Desktop\kodlar\sinema-bilet-backend)
+2024-11-28T16:20:17.340+03:00  INFO 20812 --- [main] com.ajwalker.SinemaBiletApplication      : No active profile set, falling back to 1 default profile: "default"
+2024-11-28T16:20:18.517+03:00  INFO 20812 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-11-28T16:20:18.632+03:00  INFO 20812 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 106 ms. Found 7 JPA repository interfaces.
+2024-11-28T16:20:19.426+03:00  INFO 20812 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 9090 (http)
+2024-11-28T16:20:19.445+03:00  INFO 20812 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-11-28T16:20:19.446+03:00  INFO 20812 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-11-28T16:20:19.527+03:00  INFO 20812 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-11-28T16:20:19.528+03:00  INFO 20812 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2132 ms
+2024-11-28T16:20:19.788+03:00  INFO 20812 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-11-28T16:20:19.876+03:00  INFO 20812 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-11-28T16:20:19.932+03:00  INFO 20812 --- [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-11-28T16:20:20.507+03:00  INFO 20812 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-11-28T16:20:20.553+03:00  INFO 20812 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-11-28T16:20:20.803+03:00  INFO 20812 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@b34c7c9
+2024-11-28T16:20:20.805+03:00  INFO 20812 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-11-28T16:20:22.402+03:00  INFO 20812 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-11-28T16:20:22.491+03:00  INFO 20812 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-11-28T16:20:23.724+03:00  WARN 20812 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-11-28T16:20:23.799+03:00  INFO 20812 --- [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2024-11-28T16:20:24.590+03:00  INFO 20812 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 9090 (http) with context path '/'
+2024-11-28T16:20:24.605+03:00  INFO 20812 --- [main] com.ajwalker.SinemaBiletApplication      : Started SinemaBiletApplication in 7.94 seconds (process running for 9.082)
+2024-11-28T16:20:33.900+03:00  INFO 20812 --- [http-nio-9090-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-11-28T16:20:33.901+03:00  INFO 20812 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-11-28T16:20:33.902+03:00  INFO 20812 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-11-28T16:20:34.831+03:00  INFO 20812 --- [http-nio-9090-exec-9] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 395 ms
+2024-11-28T16:23:17.524+03:00  INFO 20812 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-11-28T16:23:17.528+03:00  INFO 20812 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-11-28T16:23:17.534+03:00  INFO 20812 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-11-28T16:23:21.475+03:00  INFO 20736 --- [main] com.ajwalker.SinemaBiletApplication      : Starting SinemaBiletApplication using Java 21.0.3 with PID 20736 (C:\Users\MEHTOR\Desktop\kodlar\sinema-bilet-backend\build\classes\java\main started by MEHTOR in C:\Users\MEHTOR\Desktop\kodlar\sinema-bilet-backend)
+2024-11-28T16:23:21.478+03:00  INFO 20736 --- [main] com.ajwalker.SinemaBiletApplication      : No active profile set, falling back to 1 default profile: "default"
+2024-11-28T16:23:22.660+03:00  INFO 20736 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-11-28T16:23:22.773+03:00  INFO 20736 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 104 ms. Found 7 JPA repository interfaces.
+2024-11-28T16:23:23.579+03:00  INFO 20736 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 9090 (http)
+2024-11-28T16:23:23.599+03:00  INFO 20736 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-11-28T16:23:23.599+03:00  INFO 20736 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-11-28T16:23:23.684+03:00  INFO 20736 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-11-28T16:23:23.685+03:00  INFO 20736 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2143 ms
+2024-11-28T16:23:23.918+03:00  INFO 20736 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-11-28T16:23:24.027+03:00  INFO 20736 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-11-28T16:23:24.082+03:00  INFO 20736 --- [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-11-28T16:23:24.645+03:00  INFO 20736 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-11-28T16:23:24.696+03:00  INFO 20736 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-11-28T16:23:24.932+03:00  INFO 20736 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@3bcc8f13
+2024-11-28T16:23:24.935+03:00  INFO 20736 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-11-28T16:23:26.463+03:00  INFO 20736 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-11-28T16:23:26.548+03:00  INFO 20736 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-11-28T16:23:27.760+03:00  WARN 20736 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-11-28T16:23:27.820+03:00  INFO 20736 --- [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2024-11-28T16:23:28.557+03:00  INFO 20736 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 9090 (http) with context path '/'
+2024-11-28T16:23:28.571+03:00  INFO 20736 --- [main] com.ajwalker.SinemaBiletApplication      : Started SinemaBiletApplication in 7.726 seconds (process running for 8.604)
+2024-11-28T16:24:08.922+03:00  INFO 20736 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-11-28T16:24:08.925+03:00  INFO 20736 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-11-28T16:24:08.929+03:00  INFO 20736 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-11-28T16:24:12.953+03:00  INFO 8716 --- [main] com.ajwalker.SinemaBiletApplication      : Starting SinemaBiletApplication using Java 21.0.3 with PID 8716 (C:\Users\MEHTOR\Desktop\kodlar\sinema-bilet-backend\build\classes\java\main started by MEHTOR in C:\Users\MEHTOR\Desktop\kodlar\sinema-bilet-backend)
+2024-11-28T16:24:12.955+03:00  INFO 8716 --- [main] com.ajwalker.SinemaBiletApplication      : No active profile set, falling back to 1 default profile: "default"
+2024-11-28T16:24:14.093+03:00  INFO 8716 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-11-28T16:24:14.197+03:00  INFO 8716 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 95 ms. Found 7 JPA repository interfaces.
+2024-11-28T16:24:14.923+03:00  INFO 8716 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 9090 (http)
+2024-11-28T16:24:14.943+03:00  INFO 8716 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-11-28T16:24:14.943+03:00  INFO 8716 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-11-28T16:24:15.020+03:00  INFO 8716 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-11-28T16:24:15.020+03:00  INFO 8716 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2009 ms
+2024-11-28T16:24:15.238+03:00  INFO 8716 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-11-28T16:24:15.321+03:00  INFO 8716 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-11-28T16:24:15.364+03:00  INFO 8716 --- [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-11-28T16:24:15.885+03:00  INFO 8716 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-11-28T16:24:15.925+03:00  INFO 8716 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-11-28T16:24:16.154+03:00  INFO 8716 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@73d91faf
+2024-11-28T16:24:16.156+03:00  INFO 8716 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-11-28T16:24:17.615+03:00  INFO 8716 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-11-28T16:24:17.758+03:00  INFO 8716 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-11-28T16:24:19.642+03:00  WARN 8716 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-11-28T16:24:19.717+03:00  INFO 8716 --- [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2024-11-28T16:24:20.453+03:00  INFO 8716 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 9090 (http) with context path '/'
+2024-11-28T16:24:20.463+03:00  INFO 8716 --- [main] com.ajwalker.SinemaBiletApplication      : Started SinemaBiletApplication in 8.161 seconds (process running for 8.974)
+2024-11-28T16:24:50.785+03:00  INFO 8716 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-11-28T16:24:50.835+03:00  INFO 8716 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-11-28T16:24:50.841+03:00  INFO 8716 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-11-28T16:24:54.518+03:00  INFO 12844 --- [main] com.ajwalker.SinemaBiletApplication      : Starting SinemaBiletApplication using Java 21.0.3 with PID 12844 (C:\Users\MEHTOR\Desktop\kodlar\sinema-bilet-backend\build\classes\java\main started by MEHTOR in C:\Users\MEHTOR\Desktop\kodlar\sinema-bilet-backend)
+2024-11-28T16:24:54.522+03:00  INFO 12844 --- [main] com.ajwalker.SinemaBiletApplication      : No active profile set, falling back to 1 default profile: "default"
+2024-11-28T16:24:55.644+03:00  INFO 12844 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-11-28T16:24:55.755+03:00  INFO 12844 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 101 ms. Found 7 JPA repository interfaces.
+2024-11-28T16:24:56.442+03:00  INFO 12844 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 9090 (http)
+2024-11-28T16:24:56.460+03:00  INFO 12844 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-11-28T16:24:56.460+03:00  INFO 12844 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-11-28T16:24:56.537+03:00  INFO 12844 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-11-28T16:24:56.538+03:00  INFO 12844 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1951 ms
+2024-11-28T16:24:56.761+03:00  INFO 12844 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-11-28T16:24:56.845+03:00  INFO 12844 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-11-28T16:24:56.895+03:00  INFO 12844 --- [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-11-28T16:24:57.382+03:00  INFO 12844 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-11-28T16:24:57.425+03:00  INFO 12844 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-11-28T16:24:57.664+03:00  INFO 12844 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@b34c7c9
+2024-11-28T16:24:57.667+03:00  INFO 12844 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-11-28T16:24:59.086+03:00  INFO 12844 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-11-28T16:24:59.222+03:00  INFO 12844 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-11-28T16:25:01.325+03:00  WARN 12844 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-11-28T16:25:01.396+03:00  INFO 12844 --- [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2024-11-28T16:25:02.263+03:00  INFO 12844 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 9090 (http) with context path '/'
+2024-11-28T16:25:02.275+03:00  INFO 12844 --- [main] com.ajwalker.SinemaBiletApplication      : Started SinemaBiletApplication in 8.426 seconds (process running for 9.245)
+2024-11-28T16:29:52.214+03:00  INFO 12844 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-11-28T16:29:52.218+03:00  INFO 12844 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-11-28T16:29:52.255+03:00  INFO 12844 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-11-28T16:29:57.618+03:00  INFO 15144 --- [main] com.ajwalker.SinemaBiletApplication      : Starting SinemaBiletApplication using Java 21.0.3 with PID 15144 (C:\Users\MEHTOR\Desktop\kodlar\sinema-bilet-backend\build\classes\java\main started by MEHTOR in C:\Users\MEHTOR\Desktop\kodlar\sinema-bilet-backend)
+2024-11-28T16:29:57.621+03:00  INFO 15144 --- [main] com.ajwalker.SinemaBiletApplication      : No active profile set, falling back to 1 default profile: "default"
+2024-11-28T16:29:58.814+03:00  INFO 15144 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-11-28T16:29:58.911+03:00  INFO 15144 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 88 ms. Found 7 JPA repository interfaces.
+2024-11-28T16:29:59.629+03:00  INFO 15144 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 9090 (http)
+2024-11-28T16:29:59.648+03:00  INFO 15144 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-11-28T16:29:59.649+03:00  INFO 15144 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-11-28T16:29:59.725+03:00  INFO 15144 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-11-28T16:29:59.726+03:00  INFO 15144 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2040 ms
+2024-11-28T16:29:59.948+03:00  INFO 15144 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-11-28T16:30:00.044+03:00  INFO 15144 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-11-28T16:30:00.102+03:00  INFO 15144 --- [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-11-28T16:30:00.603+03:00  INFO 15144 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-11-28T16:30:00.662+03:00  INFO 15144 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-11-28T16:30:00.887+03:00  INFO 15144 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@61b8c9de
+2024-11-28T16:30:00.889+03:00  INFO 15144 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-11-28T16:30:02.328+03:00  INFO 15144 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-11-28T16:30:02.412+03:00  INFO 15144 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-11-28T16:30:03.620+03:00  WARN 15144 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-11-28T16:30:03.673+03:00  INFO 15144 --- [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2024-11-28T16:30:04.415+03:00  INFO 15144 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 9090 (http) with context path '/'
+2024-11-28T16:30:04.428+03:00  INFO 15144 --- [main] com.ajwalker.SinemaBiletApplication      : Started SinemaBiletApplication in 7.461 seconds (process running for 8.317)
+2024-11-28T16:31:38.746+03:00  INFO 15144 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-11-28T16:31:38.749+03:00  INFO 15144 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-11-28T16:31:38.755+03:00  INFO 15144 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-11-28T16:31:43.861+03:00  INFO 16196 --- [main] com.ajwalker.SinemaBiletApplication      : Starting SinemaBiletApplication using Java 21.0.3 with PID 16196 (C:\Users\MEHTOR\Desktop\kodlar\sinema-bilet-backend\build\classes\java\main started by MEHTOR in C:\Users\MEHTOR\Desktop\kodlar\sinema-bilet-backend)
+2024-11-28T16:31:43.864+03:00  INFO 16196 --- [main] com.ajwalker.SinemaBiletApplication      : No active profile set, falling back to 1 default profile: "default"
+2024-11-28T16:31:45.066+03:00  INFO 16196 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-11-28T16:31:45.174+03:00  INFO 16196 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 97 ms. Found 7 JPA repository interfaces.
+2024-11-28T16:31:45.882+03:00  INFO 16196 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 9090 (http)
+2024-11-28T16:31:45.905+03:00  INFO 16196 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-11-28T16:31:45.906+03:00  INFO 16196 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-11-28T16:31:45.991+03:00  INFO 16196 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-11-28T16:31:45.992+03:00  INFO 16196 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2074 ms
+2024-11-28T16:31:46.219+03:00  INFO 16196 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-11-28T16:31:46.294+03:00  INFO 16196 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-11-28T16:31:46.343+03:00  INFO 16196 --- [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-11-28T16:31:46.837+03:00  INFO 16196 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-11-28T16:31:46.883+03:00  INFO 16196 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-11-28T16:31:47.106+03:00  INFO 16196 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@b34c7c9
+2024-11-28T16:31:47.108+03:00  INFO 16196 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-11-28T16:31:48.563+03:00  INFO 16196 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-11-28T16:31:48.728+03:00  INFO 16196 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-11-28T16:31:50.749+03:00  WARN 16196 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-11-28T16:31:50.821+03:00  INFO 16196 --- [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2024-11-28T16:31:51.594+03:00  INFO 16196 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 9090 (http) with context path '/'
+2024-11-28T16:31:51.603+03:00  INFO 16196 --- [main] com.ajwalker.SinemaBiletApplication      : Started SinemaBiletApplication in 8.368 seconds (process running for 9.192)
+2024-11-28T16:33:04.064+03:00  INFO 16196 --- [http-nio-9090-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-11-28T16:33:04.065+03:00  INFO 16196 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-11-28T16:33:04.068+03:00  INFO 16196 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2024-11-28T16:33:05.088+03:00  INFO 16196 --- [http-nio-9090-exec-9] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 406 ms
+2024-11-28T16:53:04.627+03:00  INFO 16196 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-11-28T16:53:04.630+03:00  INFO 16196 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-11-28T16:53:04.634+03:00  INFO 16196 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.

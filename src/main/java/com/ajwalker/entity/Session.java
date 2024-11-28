@@ -11,7 +11,7 @@ import lombok.NoArgsConstructor;
 @Builder
 @Data
 @Entity
-@Table(name = "tblcinema")
+@Table(name = "tbl_session")
 public class Session {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
