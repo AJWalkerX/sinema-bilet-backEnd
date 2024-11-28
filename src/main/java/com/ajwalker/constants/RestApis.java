@@ -9,7 +9,7 @@ public class RestApis {
     public static final String USER = ROOT+"/user";
     public static final String SEAT = ROOT+"/seat";
     public static final String MOVIE = ROOT+"/movie";
-
+    public static final String MOVIESESSION = ROOT+ "/movie-session";
 
     public static final String LOGIN = "/login";
     public static final String REGISTER = "/register";
@@ -17,6 +17,7 @@ public class RestApis {
 
     public static final String FINDALLMOVIE = "/movie-list";
     public static final String FINDBYIDMOVIE= "/movie-page";
+    
 
 
 }
