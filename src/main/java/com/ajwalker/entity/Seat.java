@@ -18,5 +18,5 @@ public class Seat {
     private Long id;
     private String seatNo;
     private Long sessionId;
-    private Boolean isFull;
+
 }

@@ -14,7 +14,6 @@ public class SeatGenerator {
                     Seat seat = Seat.builder()
                             .seatNo(i + " "+ j)
                             .sessionId(k)
-                            .isFull(false)
                             .build();
                     seats.add(seat);
                 }

@@ -18,6 +18,8 @@ public class MovieSession {
     private Long id;
     private Long movieId;
     private Long sessionId;
+    private Long seatID;
+    private Boolean isFull;
     private ESessionHours sessionHours;
 
 }

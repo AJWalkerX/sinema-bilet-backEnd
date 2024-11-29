@@ -24,6 +24,7 @@ public class MovieSessionGenerator {
                             .sessionHours(sessionHour)
                             .movieId(movieId)
                             .sessionId(sessionId)
+                            .isFull(false)
                             .build();
                     movieSessions.add(movieSession);
                 }

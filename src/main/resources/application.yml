@@ -5,7 +5,7 @@ spring:
     host: smtp.gmail.com
     port: 587
     username: ibma.j.walker99@gmail.com
-    password: ${GOOGLEPASSWORD}
+    password: jwdl vshl rlbq vdex
     properties:
       mail:
         smtp:
@@ -17,24 +17,18 @@ spring:
           writetimeout: 5000
   security:
     user:
-      name: admin
-      password: admin
+      name: ${SECURITYUSERNAME}
+      password: ${SECURITYPASSWORD}
   datasource:
     driver-class-name: org.postgresql.Driver
-    url: jdbc:postgresql://localhost:5432/sinemabiletdb
-    username: postgres
-    password: root
+    url: ${POSTGREURL}
+    username: ${POSTGREUSERNAME}
+    password: ${POSTGREPASSWORD}
   jpa:
     hibernate:
       ddl-auto: update
     show-sql: true
-logging:
-  file:
-    name: proje.log
-  level:
-    root: info #Büyükten küçüğe -> trace -> debug -> info -> warn -> error -> fatal -> off
-#    com.ajwalker.controller.UserController: trace
 java15:
   jwt:
-    secret-key: 0f065e729f4f130a641c3a03751b50a7
-    issuer: sinemBiletX
+    secret-key: ${JWTSECRETKEY}
+    issuer: ${JWTISSUER}
